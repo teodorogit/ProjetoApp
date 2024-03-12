@@ -1,0 +1,46 @@
+.logo {
+  display: flex;
+  width: 225px;
+  margin: 20px auto;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: start;
+  width: 90%;
+  margin: 0 auto;
+  height: 250px;
+}
+.formulario input {
+  display: flex;
+  width: 80%;
+  max-width: 320px;
+  margin: 0 auto;
+  height: 60px;
+  padding-left: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.btn_entrar {
+  width: 100%;
+  max-width: 300px;
+  border-radius:999px;
+  color: #111;
+  font-weight: bold;
+  font-size: 18px;
+  height: 60px;
+  margin-top: 20px;
+  margin: 0 auto;
+  background-color: #CBEB8E;
+  border: none;
+}
+.unicv_logo {
+  width: 150px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
